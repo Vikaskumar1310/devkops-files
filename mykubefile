@@ -15,6 +15,6 @@ contexts:
 
 users:
 - name: vikas
-  uesr:
+  user:
     client-key: /root/kubernetsFile/client.key
     client-certificate: /root/kubernetsFile/client.crt
