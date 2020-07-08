@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Config
+
+clusters:
+- cluster:
+    server: https://192.168.99.100:8443
+    certificate-authority: /root/kubernetsFile/ca.crt
+  name: rhelCliCluster
+
+contexts:
+- context:
+    cluster: rhelCliCluster
+    user: vikas
+
+
+users:
+- name: vikas
+  uesr:
+    client-key: /root/kubernetsFile/client.key
+    client-certificate: /root/kubernetsFile/client.crt
