@@ -1,0 +1,1 @@
+this is dockerfile will create image of  kubernets and jenkins 
