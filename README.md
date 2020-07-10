@@ -1,2 +1,2 @@
 # devops-files
-configurations files
+configurations files for kubernetes
