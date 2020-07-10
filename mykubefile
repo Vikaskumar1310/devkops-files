@@ -5,11 +5,11 @@ clusters:
 - cluster:
     server: https://192.168.99.100:8443
     certificate-authority: /root/kubernetsFile/ca.crt
-  name: rhelCliCluster
+  name: rhelCluster
 
 contexts:
 - context:
-    cluster: rhelCliCluster
+    cluster: rhelCluster
     user: vikas
 
 
