@@ -1,1 +1,1 @@
-this is dockerfile will create image of  kubernets 
+this is dockerfile which will create image of kubernets with all configuration
